@@ -45,13 +45,13 @@ Coupon management is a broad and interesting area, with many possible scenarios.
 
 The following endpoints are available for managing and applying coupons:
 
-- **POST /api/coupons:** Create a new coupon with details such as type, discount value, applicable products, and restrictions.
-- **GET /api/coupons:** Retrieve all available coupons.
-- **GET /api/coupons/:id:** Retrieve a specific coupon by its ID.
-- **PUT /api/coupons/:id:** Update coupon details for a given ID.
-- **DELETE /api/coupons/:id:** Delete a coupon by ID.
-- **POST /api/applicable-coupons:** Retrieve and calculate all applicable coupons for a given cart.
-- **POST /api/apply-coupon/:id:** Apply a specific coupon to a cart and return the updated cart with discounted prices.
+- **POST /coupons:** Create a new coupon with details such as type, discount value, applicable products, and restrictions.
+- **GET /coupons:** Retrieve all available coupons.
+- **GET /coupons/:id:** Retrieve a specific coupon by its ID.
+- **PUT /coupons/:id:** Update coupon details for a given ID.
+- **DELETE /coupons/:id:** Delete a coupon by ID.
+- **POST /applicable-coupons:** Retrieve and calculate all applicable coupons for a given cart.
+- **POST /apply-coupon/:id:** Apply a specific coupon to a cart and return the updated cart with discounted prices.
 
 # Setup Instructions
 
