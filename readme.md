@@ -79,5 +79,5 @@ Before running the application, follow these steps:
    ```
 4. Start the development server:
    ```
-   node start
+   node start app.js
    ```
